@@ -1,6 +1,6 @@
 import streamlit as st
+import random
+from datetime import datetime
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+# Konfigurasi halaman
+st.set_page_config(page_title="Novel Writing Tool", page_icon="📖", layout="wide")
